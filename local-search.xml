@@ -4,11 +4,11 @@
   
   
   <entry>
-    <title>测试测试</title>
-    <link href="/2023/02/27/%E6%B5%8B%E8%AF%95%E6%B5%8B%E8%AF%95/"/>
-    <url>/2023/02/27/%E6%B5%8B%E8%AF%95%E6%B5%8B%E8%AF%95/</url>
+    <title>Weblogic-CVE-2023-21839</title>
+    <link href="/2023/02/28/Weblogic-CVE-2023-21839/"/>
+    <url>/2023/02/28/Weblogic-CVE-2023-21839/</url>
     
-    <content type="html"><![CDATA[<h3 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h3><p><img src="/2023/02/27/%E6%B5%8B%E8%AF%95%E6%B5%8B%E8%AF%95/image-20230227094020127.png" alt="image-20230227094020127"></p>]]></content>
+    <content type="html"><![CDATA[<h3 id="Weblogic-CVE-2023-21839"><a href="#Weblogic-CVE-2023-21839" class="headerlink" title="Weblogic-CVE-2023-21839"></a>Weblogic-CVE-2023-21839</h3><p>首先启动靶场，vulhub 靶场复现</p><p><img src="/2023/02/28/Weblogic-CVE-2023-21839/image-20230228145109994.png" alt="image-20230228145109994"></p><p><img src="/2023/02/28/Weblogic-CVE-2023-21839/image-20230228145145617.png" alt="image-20230228145145617"></p><h3 id="POC"><a href="#POC" class="headerlink" title="POC"></a>POC</h3><p>使用<a href="https://github.com/4ra1n/CVE-2023-21839">https://github.com/4ra1n/CVE-2023-21839</a> 公开连接</p><p><img src="/2023/02/28/Weblogic-CVE-2023-21839/image-20230228145532033.png" alt="image-20230228145532033"></p><p><img src="/2023/02/28/Weblogic-CVE-2023-21839/image-20230228145640261.png" alt="image-20230228145640261"></p>]]></content>
     
     
     
