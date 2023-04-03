@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+  
+  <entry>
+    <title>jdk版本切换</title>
+    <link href="/2023/03/06/jdk/"/>
+    <url>/2023/03/06/jdk/</url>
+    
+    <content type="html"><![CDATA[<h3 id="jdk版本切换"><a href="#jdk版本切换" class="headerlink" title="jdk版本切换"></a>jdk版本切换</h3><h4 id="1-前言"><a href="#1-前言" class="headerlink" title="1.前言"></a>1.前言</h4><p>   已经有jdk1.8了，用到了jdk11</p><p> 下载curl -O <a href="https://download.java.net/java/GA/jdk11/13/GPL/openjdk-11.0.1_linux-x64_bin.tar.gz">https://download.java.net/java/GA/jdk11/13/GPL/openjdk-11.0.1_linux-x64_bin.tar.gz</a></p><ol><li><code>tar zxvf jdk-8u161-linux-x64.tar.gz</code></li></ol><p>2.把jdk11移动到jdk1.8相同的目录下（主要是为了方便切换）</p><p>查看jdk1.8安装路径</p><p>find &#x2F; -name jdk1.8*</p><p>把jdk11移动到jdk1.8相同目录下</p><p><code>mv /root/jdk-11.0.1 /usr/java/</code></p><p>然后运作，设置选择使用：</p><p><code>update-alternatives  --install /usr/bin/java java /home/bigdata/jdk1.8.0_161/bin/java 3</code></p><p>&#96;&#96;update-alternatives  –install &#x2F;usr&#x2F;bin&#x2F;java java &#x2F;home&#x2F;bigdata&#x2F;jdk11&#x2F;bin&#x2F;java 4&#96;</p><p>update-alternatives –config javac<br>选择jdk11的编号</p><p>检查切换结果</p><p>java -versin</p><p>javac -version</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>基础环境类</category>
+      
+    </categories>
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Weblogic-CVE-2023-21839</title>
+    <link href="/2023/02/28/Weblogic-CVE-2023-21839/"/>
+    <url>/2023/02/28/Weblogic-CVE-2023-21839/</url>
+    
+    <content type="html"><![CDATA[<h3 id="Weblogic-CVE-2023-21839"><a href="#Weblogic-CVE-2023-21839" class="headerlink" title="Weblogic-CVE-2023-21839"></a>Weblogic-CVE-2023-21839</h3><p>首先启动靶场，vulhub 靶场复现</p><p><img src="/2023/02/28/Weblogic-CVE-2023-21839/image-20230228145109994.png" alt="image-20230228145109994"></p><p><img src="/2023/02/28/Weblogic-CVE-2023-21839/image-20230228145145617.png" alt="image-20230228145145617"></p><h3 id="POC"><a href="#POC" class="headerlink" title="POC"></a>POC</h3><p>使用<a href="https://github.com/4ra1n/CVE-2023-21839">https://github.com/4ra1n/CVE-2023-21839</a> 公开连接</p><p><img src="/2023/02/28/Weblogic-CVE-2023-21839/image-20230228145532033.png" alt="image-20230228145532033"></p><p><img src="/2023/02/28/Weblogic-CVE-2023-21839/image-20230228145640261.png" alt="image-20230228145640261"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>漏洞</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>weblogic</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  
+</search>
